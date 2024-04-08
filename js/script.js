@@ -34,7 +34,6 @@ const createTable = (number, multiplicatorNumber) => {
     const parser = new DOMParser(); // Obejto que permite transferir um string em html
     const htmlTemplate = parser.parseFromString(template, "text/html");
     const row = htmlTemplate.querySelector(".row");
-
     multiplicationTable.appendChild(row);
   }
 
